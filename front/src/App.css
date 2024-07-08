@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,7 +9,21 @@
   }
 }
 
-.App-header {
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: sandybrown;
+  padding: 10px;
+  gap: 30px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.Apps {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;

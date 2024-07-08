@@ -1,12 +1,11 @@
-import './App.css';
+import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter,Routes,Route } from 'react-router-dom';
-import CreateCustomer from './components/CreateCustomer';
-import CustomerList from './components/CustomerList';
-import Nav from './components/Nav';
-import EditCustomer from './components/EditCustomer';
-import Home from "./components/Home"
-
+import { HashRouter, Routes, Route } from "react-router-dom";
+import CreateCustomer from "./components/CreateCustomer";
+import CustomerList from "./components/CustomerList";
+import Nav from "./components/Nav";
+import EditCustomer from "./components/EditCustomer";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -24,6 +23,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
